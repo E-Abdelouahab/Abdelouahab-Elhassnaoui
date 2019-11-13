@@ -1,0 +1,113 @@
+/* body main style */
+body {
+   background-image: url(5747.jpg) ;
+    background-repeat: repeat;
+    background-color: #b2bec3;
+    height: 100%;
+    width: 100%;
+    
+    font-size: 94%;
+    font-family: Arial,sans-serif,'lucida sans unicode';
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.body
+{
+    width: 88%
+    margin:10px auto;}
+
+a:link , a:visited
+{ color:gold; }
+a { text-decoration: inherit;}
+a:hover , a:active { color: chocolate;}
+
+/* main header*/
+
+.mainHeader img
+{ width:100%;
+    border-radius: 5px;
+  
+}
+.mainHeader nav
+{ background-color: #f18973; 
+    height: 50px;
+    border-radius: 5px;
+    
+    
+} 
+.mainHeader nav ul { text-align: center;
+    list-style: none;
+    display: flex
+    margin: 5Px auto;
+}
+
+    .mainHeader nav ul li
+{ display: inline;}
+
+ .mainHeader nav ul li a:link , .mainHeader nav ul li a:visited
+{ color: azure;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 20PX;
+}
+
+ .mainHeader nav ul li a:hover , .mainHeader nav ul li a:active
+{ color: #74b9ff;
+ background-color: #80ced6;
+    text-shadow: 1px 1px #000;
+
+}
+/* main contant*/
+
+ .maincontent {
+     width:95%;
+ }
+.top_content
+{ background-color:#d5f4e6;
+    border-radius: 5px;
+    padding: 3%;
+    width:1000px;
+    margin-top: 15px;
+    float: right;
+     
+ }
+
+.title {
+    font-family:inherit;
+    font-style: italic;
+font-size: 80%;
+    margin-top: -10px;
+}
+
+#thepic{
+    position: relative;
+    left:200px;
+    width: 900px;
+    height:250px;
+}
+
+#hh{
+    width: 30%;
+    height: 20px;
+}
+
+#h{
+    width: 70%;
+    height: 100px;
+}
+#paragraaphh{
+    font-style: italic
+    <font size="30" face= "arial" color= "red">
+        </font>
+
+}
+
+
+
+
+
+
+
+
+

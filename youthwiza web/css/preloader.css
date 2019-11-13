@@ -1,0 +1,26 @@
+/*----------------------- Preloader -----------------------*/
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: rgb(14, 20, 27);
+    position: fixed;
+    transform: scale(-1.3);
+    top: 0;
+    left: 20;
+
+
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position:relative;
+    top: 45%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
